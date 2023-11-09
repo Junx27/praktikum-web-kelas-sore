@@ -13,10 +13,19 @@ nav.sticky {
   background-color: rgb(154, 235, 154);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+nav.hidden {
+  height: 0;
+  animation: fadeOut 10s forwards;
+}
 nav.sticky h3,
 nav.sticky h4,
 nav.sticky a {
   color: black;
+}
+nav.hidden h3,
+nav.hidden h4,
+nav.hidden a {
+  display: none;
 }
 nav.sticky a:hover {
   color: green;
