@@ -1,0 +1,72 @@
+/* Gaya dasar untuk navbar */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+}
+nav.sticky {
+  background-color: rgb(154, 235, 154);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+nav.sticky h3,
+nav.sticky h4,
+nav.sticky a {
+  color: black;
+}
+nav.sticky a:hover {
+  color: green;
+}
+/* Gaya untuk judul di navbar */
+.navbar h3 {
+  color: white;
+  padding-left: 20px;
+}
+/* Gaya untuk shop now */
+.navbar h4 {
+  color: white;
+  padding: 2px 10px;
+  margin-right: 20px;
+}
+.navbar h4:hover {
+  background-color: rgb(154, 235, 154);
+  color: black;
+}
+
+/* Gaya untuk daftar yang berisi tautan */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Gaya untuk setiap tautan di navbar */
+.navbar li {
+  display: inline;
+  margin: 0 10px; /* Jarak antara tautan */
+}
+
+/* Gaya untuk tautan di navbar */
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+/* Gaya saat tautan disorot (hover) */
+.navbar a:hover {
+  color: black;
+  background-color: rgb(154, 235, 154);
+  padding: 20px 10px;
+}
+
+.active,
+.btn:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,41 @@
+.judul-produk {
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: 7px solid green;
+  padding-bottom: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.produk-terlaris {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.produk-terlaris img {
+  width: 100%;
+  height: 320px;
+}
+.produk-terlaris p {
+  text-align: justify;
+  text-indent: 50px;
+}
+.produk-terlaris .produk1 {
+  margin: 0px 30px;
+  margin-top: 40px;
+}
+.produk-terlaris .nama-produk {
+  color: green;
+}
+.produk-terlaris .harga {
+  background-color: green;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.produk-terlaris .harga:hover {
+  background-color: rgb(154, 235, 154);
+  color: black;
+}

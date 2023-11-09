@@ -1,0 +1,30 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0px 50px;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.hero .left-content {
+  margin-right: 200px;
+}
+.hero .left-content button {
+  float: right;
+  margin-top: 100px;
+  font-size: 15px;
+  background-color: green;
+  padding: 10px 20px;
+  border: 1px solid green;
+  color: white;
+}
+.hero .left-content button:hover {
+  background-color: rgb(154, 235, 154);
+  color: black;
+}
+.hero .right-content img {
+  width: 700px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
