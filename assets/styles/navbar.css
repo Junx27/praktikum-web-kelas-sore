@@ -70,3 +70,22 @@ nav.sticky a:hover {
   background-color: black;
   color: white;
 }
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
+  }
+  .navbar a {
+    padding: 5px 5px;
+  }
+  .navbar a:hover {
+    padding: 5px 5px;
+  }
+  .navbar h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+  .navbar h4 {
+    display: none;
+  }
+}

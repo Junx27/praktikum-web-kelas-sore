@@ -39,3 +39,20 @@
   background-color: rgb(154, 235, 154);
   color: black;
 }
+
+@media (max-width: 768px) {
+  .produk-terlaris {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .produk-terlaris .produk1 {
+    margin: 0px 10px;
+    margin-top: 40px;
+  }
+  .judul-produk {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
