@@ -129,9 +129,11 @@
     margin-right: 10%;
   }
   .gambar-diskon {
+    top: 120px;
     left: 200px;
     margin-right: 200px;
   }
+
   .produk-terlaris img {
     width: 100%;
     height: auto;
