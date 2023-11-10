@@ -23,7 +23,7 @@
   text-indent: 50px;
 }
 .produk-terlaris .produk1 {
-  margin: 0px 30px;
+  margin: 0px 10px;
   margin-top: 40px;
 }
 .produk-terlaris .nama-produk {
@@ -38,6 +38,79 @@
 .produk-terlaris .harga:hover {
   background-color: rgb(154, 235, 154);
   color: black;
+}
+.header-produk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined {
+  color: gray;
+}
+.notifikasi {
+  display: flex;
+  align-items: center;
+}
+.material-symbols-outlined:hover {
+  color: green;
+}
+.angka-notif {
+  margin: 0px 10px;
+}
+.rate {
+  margin-top: 20px;
+}
+#star {
+  color: gold;
+}
+.produk1 {
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+.diskon {
+  color: gray;
+  text-decoration: line-through;
+}
+.keterangan-diskon {
+  display: flex;
+  justify-content: space-between;
+}
+.keterangan-diskon h5 {
+  font-size: 15px;
+  font-weight: 300;
+}
+.deskripsi-diskon {
+  color: red;
+}
+.ongkir {
+  position: relative;
+  top: -120px;
+  margin-bottom: -130px;
+  overflow: hidden;
+}
+.ongkir img {
+  width: 130px;
+  height: auto;
+}
+.seller {
+  position: relative;
+  top: -100px;
+  left: 20px;
+  margin-bottom: -90px;
+}
+.seller img {
+  width: 80px;
+  height: auto;
+}
+.gambar-diskon {
+  margin-top: -110px;
+  position: relative;
+  top: 100px;
+  left: 280px;
+}
+.gambar-diskon img {
+  width: 100px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -54,5 +127,9 @@
   .judul-produk {
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .gambar-diskon {
+    left: 200px;
+    margin-right: 200px;
   }
 }
