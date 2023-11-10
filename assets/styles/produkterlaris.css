@@ -146,4 +146,14 @@
     width: 100px;
     height: auto;
   }
+  .seller {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    margin-bottom: -90px;
+  }
+  .seller img {
+    width: 80px;
+    height: auto;
+  }
 }
