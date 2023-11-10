@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: green;
+  z-index: 9999;
 }
 nav.sticky {
   background-color: rgb(154, 235, 154);
